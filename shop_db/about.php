@@ -46,8 +46,8 @@ if(!isset($user_id)){
 
       <div class="content">
          <h3>why choose us?</h3>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet voluptatibus aut hic molestias, reiciendis natus fuga, cumque excepturi veniam ratione iure. Excepturi fugiat placeat iusto facere id officia assumenda temporibus?</p>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quos enim minima ipsa dicta officia corporis ratione saepe sed adipisci?</p>
+         <p>We are a team of bookworms who are dedicated to help the other bookaholics like us to get their desired books right from where they are.</p>
+         <p>Visit our website and do support us by introducing us to your loved ones!</p>
          <a href="contact.php" class="btn">contact us</a>
       </div>
 

@@ -104,7 +104,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="content">
          <h3>about us</h3>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quos enim minima ipsa dicta officia corporis ratione saepe sed adipisci?</p>
+         <p>Want to know more about us? </p>
          <a href="about.php" class="btn">read more</a>
       </div>
 
@@ -116,7 +116,7 @@ if(isset($_POST['add_to_cart'])){
 
    <div class="content">
       <h3>have any questions?</h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque cumque exercitationem repellendus, amet ullam voluptatibus?</p>
+      <p>If you have any questions regarding our website, don't forget to contact us!</p>
       <a href="contact.php" class="white-btn">contact us</a>
    </div>
 
