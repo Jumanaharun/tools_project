@@ -1,6 +1,6 @@
 <?php
 
-include 'config.php';
+include 'db_connect.php';
 
 session_start();
 
@@ -50,8 +50,8 @@ if(isset($_POST['send'])){
 <?php include 'header.php'; ?>
 
 <div class="heading">
-   <h3>contact us</h3>
-   <p> <a href="home.php">home</a> / contact </p>
+   <h3>Contact us</h3>
+   
 </div>
 
 <section class="contact">
@@ -71,10 +71,6 @@ if(isset($_POST['send'])){
 
 
 
-
-
-
-<?php include 'footer.php'; ?>
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>

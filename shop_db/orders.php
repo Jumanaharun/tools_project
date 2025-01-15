@@ -1,6 +1,6 @@
 <?php
 
-include 'config.php';
+include 'db_connect.php';
 
 session_start();
 
@@ -32,8 +32,8 @@ if(!isset($user_id)){
 <?php include 'header.php'; ?>
 
 <div class="heading">
-   <h3>your orders</h3>
-   <p> <a href="home.php">home</a> / orders </p>
+   <h3>Your Orders</h3>
+   
 </div>
 
 <section class="placed-orders">
@@ -73,9 +73,6 @@ if(!isset($user_id)){
 
 
 
-
-
-<?php include 'footer.php'; ?>
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>

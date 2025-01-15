@@ -1,6 +1,6 @@
 <?php
 
-include 'config.php';
+include 'db_connect.php';
 
 session_start();
 
@@ -53,7 +53,7 @@ if(isset($_POST['add_to_cart'])){
 
    <div class="content">
       <h3>Hand Picked Book to your door.</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quod? Reiciendis ut porro iste totam.</p>
+      <p>Check out the books and get the ones you like right on your doorstep!</p>
       <a href="about.php" class="white-btn">discover more</a>
    </div>
 
@@ -125,8 +125,6 @@ if(isset($_POST['add_to_cart'])){
 
 
 
-
-<?php include 'footer.php'; ?>
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>

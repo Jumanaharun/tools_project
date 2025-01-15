@@ -21,20 +21,21 @@ if(isset($message)){
             <a href="#" class="fab fa-instagram"></a>
             <a href="#" class="fab fa-linkedin"></a>
          </div>
-         <p> new <a href="login.php">login</a> | <a href="register.php">register</a> </p>
+         <p> new <a href="login.php"> Logout </a> | <a href="register.php">register</a> </p>
       </div>
    </div>
 
    <div class="header-2">
       <div class="flex">
-         <a href="home.php" class="logo">Bookly.</a>
+         <a href="home.php" class="logo">The Book Buffet</a>
 
          <nav class="navbar">
-            <a href="home.php">home</a>
-            <a href="about.php">about</a>
+            <a href="home.php">Home</a>
             <a href="shop.php">shop</a>
-            <a href="contact.php">contact</a>
-            <a href="orders.php">orders</a>
+            <a href="orders.php">Orders</a>
+            <a href="about.php">About</a>
+            <a href="contact.php">Contact</a>
+            
          </nav>
 
          <div class="icons">

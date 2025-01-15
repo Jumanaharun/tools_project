@@ -1,6 +1,6 @@
 <?php
 
-include 'config.php';
+include 'db_connect.php';
 
 session_start();
 
@@ -103,11 +103,6 @@ if(isset($_GET['delete_all'])){
 
 
 
-
-
-
-
-<?php include 'footer.php'; ?>
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>

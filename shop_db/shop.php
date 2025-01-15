@@ -1,6 +1,6 @@
 <?php
 
-include 'config.php';
+include 'db_connect.php';
 
 session_start();
 
@@ -51,7 +51,7 @@ if(isset($_POST['add_to_cart'])){
 
 <div class="heading">
    <h3>our shop</h3>
-   <p> <a href="home.php">home</a> / shop </p>
+   
 </div>
 
 <section class="products">
@@ -88,11 +88,6 @@ if(isset($_POST['add_to_cart'])){
 
 
 
-
-
-
-
-<?php include 'footer.php'; ?>
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
